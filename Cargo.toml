@@ -12,5 +12,5 @@ keywords = ["geo", "polygon", "boolean"]
 categories = ["algorithms"]
 
 [dependencies]
-clipper-sys = "0.2.0"
+clipper-sys = { git = "https://github.com/mkovacs/clipper-sys", branch = "mkovacs-windows-msvc" }
 geo-types = "0.5.0"
